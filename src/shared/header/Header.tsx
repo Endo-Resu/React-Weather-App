@@ -1,12 +1,19 @@
 import React from "react";
-import s from './Header.module.scss'
+import Select from 'react-select'
 import {GlobalSVGSelector} from "../../assets/images/icons/global/GlobalSVGSelector";
+import s from './Header.module.scss'
 
 interface Props {
     
 }
 
 export const Header = (props: Props) => {
+    const options = [
+        {value: 'chocolate', label:'Chocolate'},
+        {value: 'strawberry', label:'Strawberry'},
+        {value: 'vanilla', label:'Vanilla'},
+    ]
+
     return (
         <header className={s.header}>
             <div className={s.wrapper}>
@@ -18,6 +25,7 @@ export const Header = (props: Props) => {
             <div className={s.wrapper}>
                 <div className={s.change__theme}>
                     <GlobalSVGSelector id="change-theme"/>
+                    <Select options={options} />
                 </div>
             </div>
         </header>
