@@ -25,8 +25,8 @@ export const Header = (props: Props) => {
             <div className={s.wrapper}>
                 <div className={s.change__theme}>
                     <GlobalSVGSelector id="change-theme"/>
-                    <Select options={options} />
                 </div>
+                <Select options={options} />
             </div>
         </header>
     )
