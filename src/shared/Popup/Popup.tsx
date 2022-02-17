@@ -47,7 +47,7 @@ export const Popup = (props: Props) => {
                         Время: <span>21:54</span>
                     </div>
                     <div className={s.day__city}>
-                        Время: <span>Санкт-Петербург</span>
+                        Город: <span>Санкт-Петербург</span>
                     </div>
                 </div>
                 <div className={s.this__day_info}>
