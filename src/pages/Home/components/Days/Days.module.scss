@@ -8,7 +8,7 @@
   width: 100%;
   background-color: var(#{--components-background-default});
   box-shadow: $box-shadow;
-  border-radius: 0 0 $border-radius $border-radius;
+  border-radius: $border-radius;
 }
 
 .card {
@@ -60,7 +60,7 @@
 .tabs {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 7px;
+  margin-bottom: 20px;
 }
 
 .cancel,

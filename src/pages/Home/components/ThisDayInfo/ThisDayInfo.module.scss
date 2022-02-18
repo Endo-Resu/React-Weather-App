@@ -49,7 +49,12 @@
 }
 
 .cloud__img {
+  background-image: url("../../../../../src/assets/images/clouds/cloud.png");
   position: absolute;
   top: 0;
   right: 0;
+  height: 202px;
+  width: 460px;
+  border-radius: $border-radius;
+  z-index: 1000;
 }
