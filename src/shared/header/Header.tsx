@@ -13,7 +13,7 @@ export const Header = (props: Props) => {
     const theme = useTheme();
 
     const options = [
-        {value: 'city-1', label: 'Санкт-Петербург'},
+        {value: 'city-1', label: 'Тюмень'},
         {value: 'city-2', label: 'Москва'},
         {value: 'city-3', label: 'Новгород'},
     ];
